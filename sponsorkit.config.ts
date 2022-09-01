@@ -2,7 +2,7 @@ import { presets, defineConfig } from "sponsorkit";
 
 export default defineConfig({
   github: {
-    login: "grikomsn",
+    login: "solomonshalom",
     type: "user",
   },
   formats: ["json", "png", "svg"],
@@ -14,6 +14,6 @@ export default defineConfig({
     { title: "Pro Supporter", monthlyDollars: 25, preset: presets.medium },
     { title: "Mega Supporter", monthlyDollars: 50, preset: presets.large },
     { title: "Ultra Supporter", monthlyDollars: 100, preset: presets.xl },
-    { title: "Not Your Average Supporter", monthlyDollars: 1000, preset: presets.xl },
+    { title: "Legend", monthlyDollars: 1000, preset: presets.xl },
   ],
 });
