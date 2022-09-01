@@ -1,0 +1,7 @@
+.cache.json
+.DS_Store
+.env*
+*.log
+node_modules/
+
+!.env.example

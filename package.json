@@ -1,0 +1,23 @@
+{
+  "name": "@grikomsn/static",
+  "packageManager": "pnpm@7.9.0",
+  "scripts": {
+    "build": "run-p \"build:*\"",
+    "build:800": "sponsorkit -w 800 --name sponsors",
+    "build:1600": "sponsorkit -w 1600 --name sponsors.wide"
+  },
+  "dependencies": {
+    "sponsorkit": "latest"
+  },
+  "devDependencies": {
+    "npm-run-all2": "latest"
+  },
+  "prettier": {
+    "endOfLine": "auto",
+    "printWidth": 120,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "all"
+  },
+  "private": true
+}
